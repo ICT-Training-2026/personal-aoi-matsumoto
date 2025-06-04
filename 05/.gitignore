@@ -1,5 +1,39 @@
-/Ex0501.class
-/Ex0502.class
-/Sample0501.class
-/Sample0502.class
-/Sample0503.class
+# コンパイルされたクラスファイル
+*.class
+# ログファイルとデバッグ出力
+*.log
+# パッケージ化されたJavaアーカイブ（依存関係など）
+*.jar
+*.war
+*.ear
+# バージョン管理されていない依存関係
+/lib/
+# 特定のIDEディレクトリ
+/.settings/
+/project/
+/.classpath
+/.idea/
+*.iml
+*.ipr
+*.iws
+# Eclipse特有のファイル
+*~.nib
+*.swp
+*.bak
+*.tmp
+*.orig
+*.rej
+# MavenやGradleのフォルダ
+/target/
+/build/
+# サーバーのランタイムファイル
+/.tomcat/
+# 動的Webプロジェクトに特化
+/.apt_generated/
+/.classpath
+/.factorypath
+/.project
+/.settings/
+/target/
+/tmp/
+.logs/
